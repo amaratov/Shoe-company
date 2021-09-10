@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Shoe Store web page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <h1>Shoe Company</h1>
+    <span id="time"></span>
+</header>
+<nav>
+    <label for="categories">Choose category</label>
+    <select name="categories" id="categories">
+        <option value="all" selected>All</option>
+        <option value="sneakers">Sneakers</option>
+        <option value="basketball">Basketball</option>
+        <option value="court">Court</option>
+        <option value="originals">Originals</option>
+    </select>
+
+    <label for="currency">Currency</label>
+    <select name="currency" id="currency">
+        <option value="CAD">CAD</option>
+        <option value="USD">USD</option>
+    </select>
+
+</nav>
+<main id="main">
+</main>
+<footer id="cart">
+    Your cart:
+    <div id="list">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th>Controls</th>
+                </tr>
+            </thead>
+            <tbody id="listBody"></tbody>
+        </table>
+        <hr>
+        <p>Items subtotal: $<span id="itemsSubtotal">0.00</span></p>
+        <p>Estimated Shipping: $<span id="shipping">0.00</span> </p>
+        <br>
+        <p>Subtotal: $<span id="subtotal">0.00</span></p>
+        <p>Estimated Tax: $<span id="tax">0.00</span></p>
+        <p>Order Total: $<span id="total">0.00</span></p>
+    </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
