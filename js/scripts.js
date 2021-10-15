@@ -356,34 +356,24 @@ function getTime(){
 }
 function populateStore(){
     //insert data into array
-    let description = "The Air Jordan 3 Retro 'Court Purple' brings subtly vibrant accents to its classic construction." +
-                                " Built with tumbled leather, the upper features a black base, highlighted by Court Purple on the collar," +
-                                " eyelets and midsole. Elephant print marks the forefoot and heel," +
-                                "while the inner tongue and branding add further color to the look." +
-                                " Visible Air in the heel provides cushioning.";
+    let description = "The Everyday Slip-On is made for (you guessed it) every day. " +
+                                " Designed with a cushier sole for added support so you’ll never be grumpy on your feet again.";
     storeItems[0] = new StoreItem(
-        "1first","Air Jordan 3 Retro(Court Purple)",217,22,2,
-        "basketball",20,["great","awesome","not bad"],description,"./css/images/1.png");
+        "1first","MEN'S EVERYDAY SLIP-ONS BLACK",217,22,2,
+        "basketball",20,["great","awesome","not bad"],description,"./css/images/1.jpg");
 
 
-    description = "The Puma Suede Classic is probably the most famous and popular Puma " +
-        "sneaker and since the 80s we can not image a day without seeing them in the streets." +
-        " To keep his success story going, Puma just continues to improve on its technology and equip " +
-        "it with the best comfort so you can just wear the suede all day long. Its cool, sporty streetstyle " +
-        "design can also be easily combined with any outfit or occasion, making it suitable " +
-        "for all eventualities with just one sneaker.";
+    description = "Stay light on your feet in these ultra-lightweight kicks inspired by (but not limited to) city life." +
+        "And when we say lightweight, we mean it.";
     storeItems[1] = new StoreItem(
-        "2second","Puma Suede",120,10,1,
-        "court",20,["great","awesome","not bad"],description,"./css/images/2.png");
+        "2second","MEN'S CITYSCAPE CHARCOAL GREY",120,10,1,
+        "court",20,["great","awesome","not bad"],description,"./css/images/2.jpg");
 
-    description = "The Tuned III by Nike is a masterpiece and takes the classic Tuned 1 to a new level!" +
-        " Because you can not get that much style and technology in any other sneaker! Like its predecessor," +
-        " the Tuned III excites first in design. Energetic lines stretch from the toe to the back of the heel, " +
-        "visible tuned air elements in the heel show comfort even before you feel it, and the mix of soft leather " +
-        "and durable TPU support your foot for the best fit! You have never walked through your everyday life so comfortably!";
+    description = "The Everyday is made for (you guessed it) every day." +
+        " Designed with a cushier sole for added support so you’ll never be grumpy on your feet again.";
     storeItems[2] = new StoreItem(
-        "3third","Nike Tuned",200,13,3,
-        "sneakers",22,["great","awesome","not bad"],description,"./css/images/3.png");
+        "3third","MEN'S EVERYDAY MIDNIGHT BLACK",200,13,3,
+        "sneakers",22,["great","awesome","not bad"],description,"./css/images/3.jpg");
 
     description = "The Glow Flame Kids Old Skool, the Vans classic skate shoe and first to bare the iconic sidestripe," +
         " is a low top lace-up featuring sturdy canvas uppers with checkerboard and glow-in-the-dark flame prints." +
